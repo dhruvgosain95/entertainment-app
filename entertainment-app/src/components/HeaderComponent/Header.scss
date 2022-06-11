@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161D2F;
+    width: 100%;
+    height: 56px;
+    .brand-logo {
+        width: 25px;
+        height: 20px;
+        margin-left: 16px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .nav-list {
+        display: flex;
+        list-style: none;
+    }
+    .nav-list-item {
+        height: 1rem;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+    .user-profile {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        margin-right: 16px;
+        img {
+            width: 100%;
+        }
+    }
+}
